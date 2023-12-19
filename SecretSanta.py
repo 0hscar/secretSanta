@@ -16,7 +16,7 @@ def secret_santa(names):
     return pairs
 
 # Example usage
-participants = ["Make", "Kaitsu", "Mazzeri", "Nikler", "Emil", "Dänk"]
+participants = ["Make", "Kaitsu", "Mazzeri", "Niklas", "Emil", "Dänk"]
 pairs = secret_santa(participants)
 for giver, receiver in pairs.items():
     print(f"{giver} -> {receiver}")
